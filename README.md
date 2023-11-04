@@ -9,7 +9,7 @@ This is a Book Management System application.
 
 ## Getting Started
 
-### Running with Docker Compose
+### Starting docker compose database
 
 To run the application using Docker Compose, navigate to the project directory and execute the following command:
 
@@ -19,7 +19,7 @@ docker-compose up -d
 This command will start the necessary services defined in the docker-compose.yml file.
 
 
-### Running with Maven
+### Starting spring server
 To run the application using Maven, navigate to the project directory and execute the following command:
 ```bash 
 ./mvnw spring-boot:run
